@@ -1,0 +1,4 @@
+-look at istream::read or mmap instead of fread.
+  mmap looks like it might be the one to go.  istream::read might be too slow.
+
+- rename files/functions  they are poorly named and might cause problems later.
